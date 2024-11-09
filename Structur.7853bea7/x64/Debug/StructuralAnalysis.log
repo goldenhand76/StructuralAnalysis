@@ -1,0 +1,4 @@
+﻿  StructuralAnalysis.cpp
+G:\CppProjects\StructuralAnalysis\StructuralAnalysis.cpp(12,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+G:\CppProjects\StructuralAnalysis\StructuralAnalysis.cpp(12,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  StructuralAnalysis.vcxproj -> G:\CppProjects\StructuralAnalysis\x64\Debug\StructuralAnalysis.exe
