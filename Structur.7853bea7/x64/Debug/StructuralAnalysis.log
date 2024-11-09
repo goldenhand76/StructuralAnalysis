@@ -1,4 +1,21 @@
-﻿  StructuralAnalysis.cpp
-G:\CppProjects\StructuralAnalysis\StructuralAnalysis.cpp(12,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-G:\CppProjects\StructuralAnalysis\StructuralAnalysis.cpp(12,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+﻿  BoundaryConditions.cpp
+  DelaunayTriangulation.cpp
+G:\CppProjects\StructuralAnalysis\src\DelaunayTriangulation.cpp(26,21): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+G:\CppProjects\StructuralAnalysis\src\DelaunayTriangulation.cpp(60,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+G:\CppProjects\StructuralAnalysis\src\DelaunayTriangulation.cpp(66,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+G:\CppProjects\StructuralAnalysis\src\DelaunayTriangulation.cpp(132,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+G:\CppProjects\StructuralAnalysis\src\main.cpp(12,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+G:\CppProjects\StructuralAnalysis\src\main.cpp(12,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  PostProcessor.cpp
+G:\CppProjects\StructuralAnalysis\src\PostProcessor.cpp(14,17): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+G:\CppProjects\StructuralAnalysis\src\PostProcessor.cpp(14,37): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+G:\CppProjects\StructuralAnalysis\src\PostProcessor.cpp(15,17): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+G:\CppProjects\StructuralAnalysis\src\PostProcessor.cpp(15,37): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+G:\CppProjects\StructuralAnalysis\src\PostProcessor.cpp(16,17): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+G:\CppProjects\StructuralAnalysis\src\PostProcessor.cpp(16,37): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  Solver.cpp
+G:\CppProjects\StructuralAnalysis\src\Solver.cpp(8,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  StiffnessMatrixAssembler.cpp
+  Generating Code...
   StructuralAnalysis.vcxproj -> G:\CppProjects\StructuralAnalysis\x64\Debug\StructuralAnalysis.exe

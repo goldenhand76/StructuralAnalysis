@@ -70,6 +70,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>G:\CppProjects\StructuralAnalysis\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -129,19 +132,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BoundaryConditions.cpp" />
-    <ClCompile Include="DelaunayTriangulation.cpp" />
-    <ClCompile Include="PostProcessor.cpp" />
-    <ClCompile Include="Solver.cpp" />
-    <ClCompile Include="StiffnessMatrixAssembler.cpp" />
-    <ClCompile Include="StructuralAnalysis.cpp" />
+    <ClCompile Include="src\BoundaryConditions.cpp" />
+    <ClCompile Include="src\DelaunayTriangulation.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\PostProcessor.cpp" />
+    <ClCompile Include="src\Solver.cpp" />
+    <ClCompile Include="src\StiffnessMatrixAssembler.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BoundaryConditions.h" />
-    <ClInclude Include="DelaunayTriangulation.h" />
-    <ClInclude Include="PostProcessor.h" />
-    <ClInclude Include="Solver.h" />
-    <ClInclude Include="StiffnessMatrixAssembler.h" />
+    <ClInclude Include="include\BoundaryConditions.h" />
+    <ClInclude Include="include\DelaunayTriangulation.h" />
+    <ClInclude Include="include\PostProcessor.h" />
+    <ClInclude Include="include\Solver.h" />
+    <ClInclude Include="include\StiffnessMatrixAssembler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

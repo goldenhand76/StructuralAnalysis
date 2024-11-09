@@ -15,39 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StructuralAnalysis.cpp">
+    <ClCompile Include="src\BoundaryConditions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DelaunayTriangulation.cpp">
+    <ClCompile Include="src\DelaunayTriangulation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StiffnessMatrixAssembler.cpp">
+    <ClCompile Include="src\PostProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BoundaryConditions.cpp">
+    <ClCompile Include="src\Solver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Solver.cpp">
+    <ClCompile Include="src\StiffnessMatrixAssembler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PostProcessor.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DelaunayTriangulation.h">
+    <ClInclude Include="include\BoundaryConditions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StiffnessMatrixAssembler.h">
+    <ClInclude Include="include\DelaunayTriangulation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BoundaryConditions.h">
+    <ClInclude Include="include\PostProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Solver.h">
+    <ClInclude Include="include\Solver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PostProcessor.h">
+    <ClInclude Include="include\StiffnessMatrixAssembler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
